@@ -584,11 +584,10 @@ a{color:inherit; text-decoration:none;}
    ============================================================ */
 #footer{
   background: var(--cream); color: var(--charcoal); text-align:center; position:relative;
-  line-height: 0; font-size: 0; display: block; margin: 0; padding: 0; overflow: hidden;
+  padding: 80px 0;
 }
-#footer .banner-img{ vertical-align: bottom; display: block; width: 100%; height: auto; margin: 0; padding: 0; }
 .footer-credit{
-  position: absolute; left: 50%; bottom: 4%; transform: translateX(-50%);
+  position: absolute; left: 50%; bottom: 24px; transform: translateX(-50%);
   font-family: var(--body); font-size: 13px; letter-spacing:0.2em; text-transform:uppercase;
   color: rgba(43,38,32,0.75); z-index: 3; white-space: nowrap; line-height: 1;
   font-weight: 700;
@@ -990,8 +989,11 @@ footer#footer img{ display: block; }
 </div> -->
 
 <!-- FOOTER -->
-<footer id="footer" class="banner-section">
-  <img class="banner-img" src="assets/footer.jpg" alt="Be our guest — thank you">
+<footer id="footer" class="section arch-bg" style="background-image: url('assets/footer.jpg'); background-size: cover; background-position: center; min-height: 400px; display: flex; align-items: center; justify-content: center; position: relative;">
+  <div class="container" style="text-align: center; z-index: 2; position: relative;">
+    <h2 class="section-title" style="color: var(--charcoal); margin-bottom: 20px; text-shadow: 0 0 20px rgba(255,253,249,0.95), 0 0 44px rgba(255,253,249,0.7);">Be Our Guest</h2>
+    <p style="font-family: var(--display); font-style: italic; font-size: clamp(1.2rem, 3vw, 1.6rem); color: var(--gold-deep); margin-bottom: 30px; text-shadow: 0 0 16px rgba(255,253,249,0.9), 0 0 34px rgba(255,253,249,0.6);">Thank you for celebrating with us</p>
+  </div>
   <div class="footer-credit">Made with ♡</div>
 </footer>
 

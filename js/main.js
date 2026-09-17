@@ -643,7 +643,7 @@
      8 · Countdown  ·  21 Aug 2026, 11:00 IST
      --------------------------------------------------------- */
   (function countdown() {
-    var target = new Date('2026-10-31T12:00:00+05:30').getTime();
+    var target = new Date('2026-10-31T16:00:00+05:30').getTime();
     var d = document.getElementById('cdD'),
         h = document.getElementById('cdH'),
         m = document.getElementById('cdM'),

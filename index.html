@@ -29,7 +29,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Marcellus&family=Jost:wght@200;300;400;500&family=Noto+Sans+Malayalam:wght@300;400;500&display=swap">
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Marcellus&family=Jost:wght@200;300;400;500&family=Noto+Sans+Malayalam:wght@300;400;500&family=Great+Vibes&display=swap">
 
   <!-- Critical media only: cover, intro video, hero -->
   <link rel="preload" as="image" href="assets/images/cover/cover.png" fetchpriority="high">
@@ -513,26 +513,52 @@
   </section>
 
 
-  <!-- ---------- RECEPTION ---------- -->
-    <section id="reception" class="scene scene--flow scene--dark">
+  <!-- ---------- VENUES (NIKAH & RECEPTION) ---------- -->
+    <section id="venues" class="scene scene--flow scene--dark">
       <img class="section-bg" src="assets/images/decorations/wash-dark.svg" alt="" loading="lazy" decoding="async">
       <div class="section-overlay" aria-hidden="true"></div>
       <div class="section-content">
         <div class="sec-head reveal">
-          <p class="kicker">Reception</p>
-          <h2 class="sec-title">Reception</h2>
+          <p class="kicker">Join us for</p>
+          <h2 class="sec-title">Nikah &amp; Reception</h2>
           <div class="divider divider--light" aria-hidden="true">
             <span class="divider-line"></span>
             <svg class="ico" aria-hidden="true">
-              <use href="#i-bell"></use>
+              <use href="#i-lamp"></use>
             </svg>
             <span class="divider-line"></span>
           </div>
         </div>
 
-        <div class="lux-card reveal" data-delay="1">
+        <!-- Nikah Card -->
+        <div class="lux-card reveal" data-delay="1" style="margin-bottom: clamp(32px, 6vw, 52px);">
           <div class="lux-card__col">
-            <p class="lux-eyebrow">You are cordially invited</p>
+            <p class="lux-eyebrow">Nikah Ceremony</p>
+            <h3 class="lux-day">Saturday</h3>
+            <p class="lux-date">31 October 2026</p>
+            <p class="lux-time">After Asar Prayer · 4:00 PM – 4:30 PM</p>
+          </div>
+          <span class="lux-card__rule" aria-hidden="true"></span>
+          <div class="lux-card__col">
+            <p class="lux-k"><svg class="ico">
+                <use href="#i-pin"></use>
+              </svg> Venue</p>
+            <p class="lux-v">Kadachira Juma Masjid</p>
+            <p class="lux-sub">Kadachira, Kannur</p>
+            <p class="lux-note">Join us for the sacred Nikah ceremony as we begin our journey together with Allah's blessings.</p>
+            <a class="btn btn--outline-gold" target="_blank" rel="noopener"
+              href="https://www.google.com/maps/search/?api=1&amp;query=Kadachira+Juma+Masjid+Kannur">
+              <svg class="ico">
+                <use href="#i-pin"></use>
+              </svg> Open in Maps
+            </a>
+          </div>
+        </div>
+
+        <!-- Reception Card -->
+        <div class="lux-card reveal" data-delay="2">
+          <div class="lux-card__col">
+            <p class="lux-eyebrow">Reception</p>
             <h3 class="lux-day">Sunday</h3>
             <p class="lux-date">1 November 2026</p>
             <p class="lux-time">12:00 PM – 2:30 PM</p>
@@ -546,7 +572,7 @@
             <p class="lux-sub">Kadachira, Kannur</p>
             <p class="lux-note">Join us as we celebrate the couple and their new beginning.</p>
             <a class="btn btn--outline-gold" target="_blank" rel="noopener"
-              href="https://www.google.com/maps/search/?api=1&amp;query=Nafeesa+Manzil+Kadachira+Kannur">
+              href="https://maps.app.goo.gl/qt9kSrKnKs3pJNoh6">
               <svg class="ico">
                 <use href="#i-pin"></use>
               </svg> Open in Maps
